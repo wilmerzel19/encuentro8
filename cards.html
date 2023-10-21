@@ -17,22 +17,22 @@
                 </small></h2>
         </div>
         <div class="segunda">
-            <form action="">
-                <label><span>Nombre</span>
-                    <input type="text" placeholder="Ingrese su nombre">
+            <form method="post">
+                <label><span>Nombre Usuario</span>
+                    <input id="username" type="text" placeholder="Ingrese su nombre">
                 </label>
-                <label><span>Apellido</span>
-                    <input type="text" placeholder="Ingrese su apellido">
+                <label><span>Contraseña</span>
+                    <input id="password" type="password" placeholder="Ingrese su Contraseña">
                 </label>
 
-                <button>Enviar</button>
+                <button type="button" onclick="login()">Enviar</button>
             </form>
 
         </div>
     </div>
 
 
-
+ <script src="/js/validar_formulario.js"></script>
 </body>
 
 </html>
