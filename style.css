@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Asap', sans-serif;
+}
+
+
+html, body {
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inicio{
+    background: #CCC;
+}
+
+#docentes{
+    background: #f3e930;
+}
+
+#estudiantes{
+    background: #1773e4;
+}
+
+#cursos{
+    background: #e41749;
+}
+
+#contacto{
+    background: #054a5c;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(90deg, #e41749 0%, #1773e4 100%);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(233, 225, 225);
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.text {
+    color: #fff;
+  
+}
+
+button {
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background: #e41749;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}

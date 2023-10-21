@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  color: #5e5656;
+  border: none;
+    
+}
+
+.padre {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.primera {
+  margin-right: 50px;
+  background: #ccc;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.primera small {
+  font-size: 14px;
+  font-style: italic;
+  display: block;
+}
+
+.segunda {
+  background: linear-gradient(45deg, #e41749 0%, #1773e4 100%);
+  padding: 20px;
+    border-radius: 10px;
+  color: #fff;
+  margin: 0 0 0 -3em;
+  box-shadow: 0 0 10px rgba(19, 46, 202, 0.5);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: #afafaf;
+}
+
+button {
+  background:linear-gradient(45deg, #b44662 0%, #1773e4 100%)   ;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background: #a597b1;
+}
