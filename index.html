@@ -6,7 +6,7 @@
     <title>UML - Teach</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="validar_login">
     <main>
         <!-- Menu -->
         <header>
@@ -30,6 +30,10 @@
 
                 <button>
                     Profile
+                </button>
+
+                <button type="button" onclick="logout()">
+                    Logout
                 </button>
             </div>
         </header>
@@ -58,5 +62,6 @@
         </section>
     </main>
 
+    <script src="/js/validar_formulario.js"></script>   
 </body>
 </html>

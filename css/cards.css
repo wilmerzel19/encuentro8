@@ -29,12 +29,13 @@ html {
 }
 
 .segunda {
-  background: linear-gradient(45deg, #e41749 0%, #1773e4 100%);
+  background: linear-gradient(45deg, #7c25af 0%, #1773e4 100%);
   padding: 20px;
     border-radius: 10px;
   color: #fff;
   margin: 0 0 0 -3em;
   box-shadow: 0 0 10px rgba(19, 46, 202, 0.5);
+
 }
 
 form {
@@ -66,7 +67,7 @@ input::placeholder {
 }
 
 button {
-  background:linear-gradient(45deg, #b44662 0%, #1773e4 100%)   ;
+  background:red   ;
   color: #fff;
   border: none;
   padding: 8px;
